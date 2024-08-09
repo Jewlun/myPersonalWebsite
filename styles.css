@@ -1,0 +1,54 @@
+body {
+    background-color: teal;
+    cursor: grab;
+    font: small-caption;
+}
+
+main {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+h1 {
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+                 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+p {
+    border: outset;
+    color: wheat;
+}
+
+button {
+    appearance: none;
+    width: 60px;
+    font-style: oblique;
+}
+
+.bottomSec {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    list-style: hiragana;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+    color: ghostwhite;
+}
+
+div {
+    border: 3px solid black 
+}
+
+  * { box-sizing: border-box }
+
+img { 
+    max-width: 4000px;
+    width: 100%;
+}
